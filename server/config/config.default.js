@@ -20,6 +20,8 @@ module.exports = appInfo => {
 
   config.multipart = {
     mode: 'file',
+    fileSize: '50mb',
+    fileExtensions: [ '.pdf' ],
   };
 
   // add your user config here
